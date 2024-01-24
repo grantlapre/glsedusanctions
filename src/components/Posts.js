@@ -4,7 +4,7 @@ import Post from "./Post";
 import cs1 from '../sa1.png';
 
 import bd1 from '../sa2.png';
-import navBut from "../navBut";
+
 
 
 
@@ -79,7 +79,6 @@ P.S.: Your insights, queries, and feedback are always appreciated! Don't forget 
     ];
     return (
         <div className="posts-container">
-            <navBut />
         {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
         ))}
